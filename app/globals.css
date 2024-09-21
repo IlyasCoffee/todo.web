@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body {
+    @apply bg-white text-black;
+  }
+
+  h1 {
+    @apply text-6xl font-bold;
+  }
+
+  h2 {
+    @apply text-3xl font-bold;
+  }
+
+  .btn-primary {
+    @apply bg-black hover:bg-zinc-800 text-white rounded-full transition-all flex justify-center items-center px-4 py-2;
+  }
+
+  .btn-secondary {
+    @apply bg-black/5 hover:bg-black/10 rounded-full transition-all flex justify-center items-center px-4 py-2;
+  }
+
+  .link {
+    @apply underline;
+  }
+}
